@@ -1,46 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.0</version>
-		<relativePath/> <!-- Lookup parent from repository -->
+		<version>3.0.4</version>
+		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-
-	<groupId>com.devupers</groupId>
-	<artifactId>Devupers</artifactId>
+	<groupId>com.javawhizz</groupId>
+	<artifactId>App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Devupers</name>
-	<description>Project 13-12-2024</description>
-
+	<name>App</name>
+	<description>REST API hosted on render</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-
 	<dependencies>
-		<!-- Spring Boot Web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- Spring Data MongoDB -->
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 
-		<!-- Spring Data MongoDB (Explicit Version) -->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-mongodb</artifactId>
-			<version>4.4.0</version>
-		</dependency>
-
-		<!-- Testing Dependencies -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -50,7 +37,6 @@
 
 	<build>
 		<plugins>
-			<!-- Spring Boot Maven Plugin -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -58,15 +44,4 @@
 		</plugins>
 	</build>
 
-	<!-- Distribution Management for Deployment -->
-	<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<url>https://your.repository.url/releases</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<url>https://your.repository.url/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>

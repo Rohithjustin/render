@@ -1,8 +1,8 @@
 FROM amazoncorretto:17
 LABEL version="1.0"
 VOLUME /tmp
-WORKDIR /app
-COPY target/Devupers-0.0.1-SNAPSHOT.jar /app/Devupers.jar
+
+COPY target/Devupers-0.0.1-SNAPSHOT.jar Devupers.jar
 ENTRYPOINT ["java", "-jar", "Devupers.jar"]
 EXPOSE 8080
 

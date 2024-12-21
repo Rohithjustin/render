@@ -1,10 +1,10 @@
-package com.javawhizz.App;
+package com.devupers.Devupers;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AppApplicationTests {
+class DevupersApplicationTests {
 
 	@Test
 	void contextLoads() {

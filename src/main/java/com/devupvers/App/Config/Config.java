@@ -27,7 +27,7 @@ public class Config {
     }
     @Bean
     public MongoTemplate mongoTemplate() throws Exception {
-        MongoClient mongoClient = MongoClients.create("mongodb+srv://rohithroy14u:Ua4A8lO8QpCy07Be@devupvers.yzgtx.mongodb.net/?retryWrites=true&w=majority");
+        MongoClient mongoClient = MongoClients.create("mongodb+srv://rohithroy14u:rohith@devupvers.yzgtx.mongodb.net");
         return new MongoTemplate(mongoClient, "devupvers");
     }
 }

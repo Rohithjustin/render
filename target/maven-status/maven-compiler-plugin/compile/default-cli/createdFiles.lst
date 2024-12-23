@@ -1,0 +1,7 @@
+com\devupvers\App\Model\UserModel.class
+com\devupvers\App\Service\UserService.class
+com\devupvers\App\AppApplication.class
+com\devupvers\App\Service\UserServiceImpl.class
+com\devupvers\App\Controller\UserController.class
+com\devupvers\App\Repository\UserRepository.class
+com\devupvers\App\Config\Config.class

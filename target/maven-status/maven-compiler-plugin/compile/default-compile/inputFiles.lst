@@ -1,3 +1,7 @@
-C:\Users\redhat\Documents\Projects\App\src\main\java\com\javawhizz\App\customer\Customer.java
-C:\Users\redhat\Documents\Projects\App\src\main\java\com\javawhizz\App\AppApplication.java
-C:\Users\redhat\Documents\Projects\App\src\main\java\com\javawhizz\App\customer\CustomerController.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\AppApplication.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Config\Config.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Controller\UserController.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Model\UserModel.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Repository\UserRepository.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Service\UserService.java
+E:\springboot- render\render\src\main\java\com\devupvers\App\Service\UserServiceImpl.java
